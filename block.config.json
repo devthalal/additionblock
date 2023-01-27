@@ -1,0 +1,13 @@
+{
+  "name": "additionblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/additionblock",
+    "ssh": "git@github.com:devthalal/additionblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
